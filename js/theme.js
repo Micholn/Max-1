@@ -265,6 +265,18 @@ new WOW().init();
 		return false;
 		
 	});
+
+	/*=== Close the menu on click ====*/
+	$('.wap-menu').on('click', function() {
+		
+		$(".wap-menu").css('left', '-290px');
+		setTimeout(function() { 	
+			$(".wap-menu").css('display', 'none');
+		}, 300)
+		
+		return false;
+		
+	});
 	
 })(jQuery);
 

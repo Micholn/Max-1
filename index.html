@@ -113,8 +113,8 @@
 						<!-- === top menu item === -->
 						<li class="active dropdown">
 							<a data-toggle="dropdown" href="#">Home</a>
-							
 						</li>
+
 						<li class="main-menu-separator"></li>
 						<!-- === top menu item === -->
 						<li class="dropdown">
@@ -126,15 +126,9 @@
 						<li class="dropdown">
 							<a href="#about-section">About us</a>
 						</li> 
-
-						<li class="main-menu-separator"></li>
-						<!-- === top menu item === --> 
-						<li class="main-menu-separator"></li>
-						<!-- === top menu item === -->
-						<li class="main-menu-separator"></li>
 						<!-- === top menu item === -->
 						<li >
-							<a class="latest" href="#contact-section">Contact us</a>
+							<a class="latest" href="#quote-section">Contact us</a>
 						</li>
 					</ul>
 				</div>
@@ -573,7 +567,7 @@
 						<!-- === GET QUOTE FORM=== -->
 						<div class="get-quote-form">
 						<div class="send-result"></div>
-							<form name="gq-form" id="gq-form" method="POST" action="javascript:void(null);" onsubmit="sendmail_1();">
+							<form name="gq-form" id="gq-form" action="" method="POST" data-netlify="true" onsubmit="sendmail_1();">
 								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 get-quote-form-left">
 									<!-- === GET QUOTE FORM ITEM === -->
 									<div class="form-item">
@@ -1242,7 +1236,7 @@
 								<li><a href="#">Home</a></li>
 								<li><a href="#service-section">Services</a></li>
 								<li><a href="#about-section">About us</a></li>
-								<li><a href="">Contact Us</a></li>
+								<li><a href="#quote-section">Contact Us</a></li>
 								
 							</ul>
 						</div>
@@ -1365,24 +1359,24 @@
 		<ul id="left-menu" class="left-menu">
 			
 			<!-- === SLIDE MENU ITEM === -->	
-			<li> 
-				<a href="#">Home <i class="fa fa-plus arrow"></i></a>
+			<li class="wap-menu"> 
+				<a   href="#">Home </a>
 				<!-- === slide menu child === -->	
 			</li>
 			
 			<!-- === SLIDE MENU ITEM === -->	
-			<li> 
-				<a href="#services-section">Services <i class="fa fa-plus arrow"></i></a>
+			<li id="close-menu"> 
+				<a  href="#service-section">Services </a>
 				
 			</li>
 			
 			<!-- === SLIDE MENU ITEM === -->	
-			<li> 
-				<a href="#about-section">About us</a>
+			<li id="close-menu"> 
+				<a  href="#about-section">About us</a>
 			</li>
 			<!-- === SLIDE MENU ITEM === -->	
-			<li >
-				<a href="#contact-section">Contact us</a>
+			<li id="close-menu">
+				<a  href="#quote-section">Contact us</a>
 			</li>
 			
 		</ul>
