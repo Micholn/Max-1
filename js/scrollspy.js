@@ -3,11 +3,11 @@
  * This watches the window scroll and fires events when elements are scrolled into viewport.
  *
  * throttle() and getTime() taken from Underscore.js
- * https://github.com/jashkenas/underscore
+ * 
  *
- * @author Copyright 2013 John Smart
- * @license https://raw.github.com/thesmart/jquery-scrollspy/master/LICENSE
- * @see https://github.com/thesmart
+ * @author 
+ * @license 
+ * @see 
  * @version 0.1.2
  */
 (function($) {

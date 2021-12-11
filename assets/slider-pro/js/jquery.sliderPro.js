@@ -1,8 +1,6 @@
 /*!
 *  - v1.2.2
-* Homepage: http://bqworks.com/slider-pro/
-* Author: bqworks
-* Author URL: http://bqworks.com/
+
 */
 ;(function( window, $ ) {
 
